@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Alex",
+    "lastName": "Johnson",
+    "role": "Senior React Developer",
+    "team": "Frontend"
+  },
+  {
+    "name": "David",
+    "lastName": "Park",
+    "role": "JavaScript Specialist",
+    "team": "Frontend"
+  },
+  {
+    "name": "Mia",
+    "lastName": "Chen",
+    "role": "UI Developer",
+    "team": "Frontend"
+  },
+  {
+    "name": "Sarah",
+    "lastName": "Miller",
+    "role": "Frontend Lead",
+    "team": "Frontend"
+  },
+  {
+    "name": "James",
+    "lastName": "Wilson",
+    "role": "Node.js Developer",
+    "team": "Backend"
+  },
+  {
+    "name": "Robert",
+    "lastName": "Taylor",
+    "role": "API Architect",
+    "team": "Backend"
+  },
+  {
+    "name": "Olivia",
+    "lastName": "Martinez",
+    "role": "Database Administrator",
+    "team": "Backend"
+  },
+  {
+    "name": "Emily",
+    "lastName": "Brown",
+    "role": "Backend Lead",
+    "team": "Backend"
+  },
+  {
+    "name": "Daniel",
+    "lastName": "Lee",
+    "role": "MERN Stack Developer",
+    "team": "Fullstack"
+  },
+  {
+    "name": "Sophia",
+    "lastName": "Garcia",
+    "role": "Full Stack Engineer",
+    "team": "Fullstack"
+  },
+  {
+    "name": "Michael",
+    "lastName": "Rodriguez",
+    "role": "DevOps Specialist",
+    "team": "Fullstack"
+  },
+  {
+    "name": "Emma",
+    "lastName": "Thompson",
+    "role": "UX Researcher",
+    "team": "UI/UX"
+  },
+  {
+    "name": "Ava",
+    "lastName": "Wilson",
+    "role": "Interaction Designer",
+    "team": "UI/UX"
+  },
+  {
+    "name": "William",
+    "lastName": "Davis",
+    "role": "UI Designer",
+    "team": "UI/UX"
+  },
+  {
+    "name": "Noah",
+    "lastName": "Martin",
+    "role": "Design System Lead",
+    "team": "UI/UX"
+  }
+]
