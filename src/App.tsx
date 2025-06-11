@@ -22,7 +22,7 @@ function App() {
   }, [selectedStack]);
 
   return (
-    <div className="flex text-sm bg-gray-10">
+    <div className="flex text-sm bg-gray-10 flex-col sm:flex-row">
       <SideBarStacks setSelectedStack={setSelectedStack} selectedStack={selectedStack}/>
       <ContainerTeams teams={teams} selectedStack={selectedStack}/>
     </div>
