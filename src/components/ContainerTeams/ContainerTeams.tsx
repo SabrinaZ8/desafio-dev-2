@@ -1,4 +1,4 @@
-import type { ContainerTeamsProps } from "./types";
+import type { ContainerTeamsProps } from "../../types/types";
 
 export const ContainerTeams = ({ teams, selectedStack }: ContainerTeamsProps) => {
   return (
