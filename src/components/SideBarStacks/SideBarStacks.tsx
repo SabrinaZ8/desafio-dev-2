@@ -4,8 +4,8 @@ export const SideBarStacks = ({ selectedStack, setSelectedStack }: SideBarStacks
   const teams = ["Frontend", "Backend", "Fullstack", "UI/UX"];
 
   return (
-    <aside className="w-64 min-w-64 px-6 shadow-md/10 mr-8 h-screen bg-white">
-      <h2 className="text-blue-950 font-medium text-lg py-6 border-b-2 border-white-10">
+    <aside className="aside-stacks">
+      <h2>
         Tech Stacks
       </h2>
       <nav className="nav-list-stacks">
@@ -13,12 +13,10 @@ export const SideBarStacks = ({ selectedStack, setSelectedStack }: SideBarStacks
           {teams.map((team) => (
             <li
               key={team}
-              className={`rounded-md my-1 ${
-                selectedStack === team ? "bg-white-10 font-medium text-gray-950" : "text-gray-750"
-              }`}
+              className={`${selectedStack === team ? "bg-white-10 font-medium text-gray-950" : "text-gray-750"}`}
             >
               <button
-                className="w-full text-left px-4 py-2"
+                className="w-full text-left px-6 py-2"
                 onClick={() => setSelectedStack(team)}
               >
                 {team}

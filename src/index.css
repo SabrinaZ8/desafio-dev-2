@@ -11,9 +11,29 @@
 
     --color-white-10: #F3F4F6
 }
+.aside-stacks {
+    @apply w-64 min-w-64 shadow-md/10 mr-8 h-screen bg-white
+}
+.aside-stacks h2{
+    @apply text-blue-950 font-medium text-lg py-6 border-b-2 border-white-10 px-6
+}
 .nav-list-stacks ul {
     @apply mt-2.5;
 }
 .nav-list-stacks ul li{
     @apply py-2.5;
+}
+
+.container h1{
+    @apply text-[26px] font-light text-blue-950 my-9
+}
+.container > div {
+    @apply flex flex-wrap gap-6 mt-8;
+}
+
+article {
+    @apply w-[260px] h-24 flex text-gray-550 px-5 shadow-md/10 items-center
+}
+.avatar {
+    @apply w-12 h-12 rounded-full bg-gray-40 flex items-center justify-center mr-4
 }
