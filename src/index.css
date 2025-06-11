@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
 @theme {
+    --color-gray-10: #F9FAFB;
     --color-gray-40: #E5E7EB;
     --color-gray-550: #6B7280;
+    --color-gray-750: #4B5563;
     --color-gray-950: #111827;
 
     --color-blue-950: #1F2937;
+
+    --color-white-10: #F3F4F6
+}
+.nav-list-stacks ul {
+    @apply mt-2.5;
+}
+.nav-list-stacks ul li{
+    @apply py-2.5;
 }

@@ -1,3 +1,4 @@
 export type SideBarStacksProps = {
-  setSelectedStack: (stack: string) => void;
+  setSelectedStack: (steam: string) => void;
+  selectedStack: string | null;
 };

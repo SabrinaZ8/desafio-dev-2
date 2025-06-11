@@ -11,16 +11,16 @@ function App() {
   useEffect(() => {
     const fetchTeams = async () => {
       const response = await axios.get('/data/teams.json')
-      setTeams(response.data.filter((team: teamsType) => team.team === selectedStack))
+      setTeams(response.data.filter((team: teamsType) => team.stack === selectedStack))
     }
 
     fetchTeams()
   }, [selectedStack])
 
   return (
-    <div className="flex text-sm">
-      <SideBarStacks setSelectedStack={setSelectedStack}/>
-      <ContainerTeams teams={teams}/>
+    <div className="flex text-sm bg-gray-10">
+      <SideBarStacks setSelectedStack={setSelectedStack} selectedStack={selectedStack}/>
+      <ContainerTeams teams={teams} selectedStack={selectedStack}/>
     </div>
   )
 }

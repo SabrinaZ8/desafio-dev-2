@@ -3,90 +3,90 @@
     "name": "Alex",
     "lastName": "Johnson",
     "role": "Senior React Developer",
-    "team": "Frontend"
+    "stack": "Frontend"
   },
   {
     "name": "David",
     "lastName": "Park",
     "role": "JavaScript Specialist",
-    "team": "Frontend"
+    "stack": "Frontend"
   },
   {
     "name": "Mia",
     "lastName": "Chen",
     "role": "UI Developer",
-    "team": "Frontend"
+    "stack": "Frontend"
   },
   {
     "name": "Sarah",
     "lastName": "Miller",
     "role": "Frontend Lead",
-    "team": "Frontend"
+    "stack": "Frontend"
   },
   {
     "name": "James",
     "lastName": "Wilson",
     "role": "Node.js Developer",
-    "team": "Backend"
+    "stack": "Backend"
   },
   {
     "name": "Robert",
     "lastName": "Taylor",
     "role": "API Architect",
-    "team": "Backend"
+    "stack": "Backend"
   },
   {
     "name": "Olivia",
     "lastName": "Martinez",
     "role": "Database Administrator",
-    "team": "Backend"
+    "stack": "Backend"
   },
   {
     "name": "Emily",
     "lastName": "Brown",
     "role": "Backend Lead",
-    "team": "Backend"
+    "stack": "Backend"
   },
   {
     "name": "Daniel",
     "lastName": "Lee",
     "role": "MERN Stack Developer",
-    "team": "Fullstack"
+    "stack": "Fullstack"
   },
   {
     "name": "Sophia",
     "lastName": "Garcia",
     "role": "Full Stack Engineer",
-    "team": "Fullstack"
+    "stack": "Fullstack"
   },
   {
     "name": "Michael",
     "lastName": "Rodriguez",
     "role": "DevOps Specialist",
-    "team": "Fullstack"
+    "stack": "Fullstack"
   },
   {
     "name": "Emma",
     "lastName": "Thompson",
     "role": "UX Researcher",
-    "team": "UI/UX"
+    "stack": "UI/UX"
   },
   {
     "name": "Ava",
     "lastName": "Wilson",
     "role": "Interaction Designer",
-    "team": "UI/UX"
+    "stack": "UI/UX"
   },
   {
     "name": "William",
     "lastName": "Davis",
     "role": "UI Designer",
-    "team": "UI/UX"
+    "stack": "UI/UX"
   },
   {
     "name": "Noah",
     "lastName": "Martin",
     "role": "Design System Lead",
-    "team": "UI/UX"
+    "stack": "UI/UX"
   }
 ]

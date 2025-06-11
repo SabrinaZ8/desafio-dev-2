@@ -1,11 +1,12 @@
 import type { teamsType } from "../../types/types";
 type PropsTeams = {
   teams: teamsType[];
+  selectedStack: string | null
 };
-export const ContainerTeams = ({ teams }: PropsTeams) => {
+export const ContainerTeams = ({ teams, selectedStack }: PropsTeams) => {
   return (
     <main>
-      <h1 className="text-[26px] font-light text-blue-950">Team</h1>
+      <h1 className="text-[26px] font-light text-blue-950 my-9">{`${selectedStack} Team` }</h1>
       <div className="flex flex-wrap gap-6 mt-8">
         {teams.map((team, index) => (
           <article
