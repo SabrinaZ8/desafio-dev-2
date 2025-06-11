@@ -18,7 +18,7 @@ function App() {
   }, [selectedStack])
 
   return (
-    <div className="flex ">
+    <div className="flex text-sm">
       <SideBarStacks setSelectedStack={setSelectedStack}/>
       <ContainerTeams teams={teams}/>
     </div>
