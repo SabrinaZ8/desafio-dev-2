@@ -10,12 +10,16 @@ function App() {
 
   useEffect(() => {
     const fetchTeams = async () => {
-      const response = await axios.get('/data/teams.json')
-      setTeams(response.data.filter((team: teamsType) => team.stack === selectedStack))
-    }
+      try {
+        const response = await axios.get("/data/teams.json");
+        setTeams(response.data.filter((team: teamsType) => team.stack === selectedStack));
+      } catch (error) {
+        console.error("Erro ao buscar os dados da equipe:", error);
+      }
+    };
 
-    fetchTeams()
-  }, [selectedStack])
+    fetchTeams();
+  }, [selectedStack]);
 
   return (
     <div className="flex text-sm bg-gray-10">
